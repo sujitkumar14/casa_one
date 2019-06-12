@@ -1,0 +1,22 @@
+{
+  "name": "casa-one",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=casa-one:*,log NODE_ENV=development  node ./bin/www",
+    "test": "mocha ./test/test"
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "jsonwebtoken": "8.5.1",
+    "mocha": "6.1.4",
+    "mongoose": "5.5.14",
+    "morgan": "~1.9.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.4",
+    "uuid": "3.3.2"
+  }
+}
